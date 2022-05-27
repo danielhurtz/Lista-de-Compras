@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap");
+
+body {
+	background-image: linear-gradient(
+		to right top,
+		#051937,
+		#003042,
+		#234446,
+		#49564f,
+		#686965
+	);
+	font-family: "Maven Pro", sans-serif;
+	display: flex;
+	flex-direction: column;
+	margin:0;
+  min-width: 500px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 9pt;
+	word-spacing: 6pt;
+	line-height: 1.5;
+}
+
+h1:hover {
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+	color: rgba(0, 0, 0, 0.534);
+}
+
+.container {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.caixa {
+	text-align: center;
+	float: none;
+	padding: 2% 13% 2% 10%;
+	height: 10em;
+	width: 12em;
+}
+
+.menuProdutos {
+	background: rgba(0, 0, 0, 0.144);
+	width: 10em;
+	height: 5em;
+	border: 0.01em solid #0000003b;
+}
+
+.menuProdutos:nth-child(1) {
+	padding: 2em 2em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.menuProdutos input {
+	background-color: rgba(168, 168, 168, 0.26);
+}
+
+.caixaProdutos {
+	display: flex;
+	display: inline-table;
+}
+
+button {
+	margin-top: 20px;
+	font-size: 0.8em;
+	border-radius: 0.4em;
+	height: 1.7em;
+	cursor: pointer;
+	background-color: #bbf0edbd;
+}
+
+button:hover {
+	letter-spacing: 0.4px;
+}
+
+.categoriaProdutos {
+	position: relative;
+	left: 600px;
+	bottom: 190px;
+	float: none;
+	padding: 10px 20px;
+	width: 300px;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.144);
+	border: 0.01em solid #0000003b;
+}
+
+.caixaProdutos {
+	font-size: 14pt;
+	height: auto;
+	width: auto;
+	background-color: #00000000;
+}
+
+footer {
+	text-align: center;
+	color: rgba(0, 0, 0, 0.63);
+}
+
+footer:hover {
+	color: rgb(0, 2, 145);
+	transition-duration: 3s;
+}

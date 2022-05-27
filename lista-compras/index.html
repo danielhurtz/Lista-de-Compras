@@ -1,0 +1,54 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Lista de Compras 🛒</h1>
+
+    <div class="container">
+        <div class="caixa">
+            <div class="menuProdutos">
+                Produto: <input type="text" id="item" placeholder="Ex: Batata, Banana.." required>
+                <br>
+                <select name="lista" id="select">
+                    <option>Frutas</option>
+                    <option>Verduras</option>
+                    <option>Laticinios</option>
+                    <option>Cereais</option>
+                    <option>Carnes</option>
+                    <option>Doces</option>
+                    <option>Bebidas</option>
+
+                </select>
+
+                <button onclick="cadastrar()">Adicionar</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="categoriaProdutos">
+        <div class="caixaProdutos">
+            <div id="frutas"></div>
+            <div id="verduras"></div>
+            <div id="laticinios"></div>
+            <div id="cereais"></div>
+            <div id="carnes"></div>
+            <div id="doces"></div>
+            <div id="bebidas"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <p class="footer">&copy;2022 Daniel</p>
+</footer>
+
+</html>
