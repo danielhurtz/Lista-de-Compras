@@ -1,2 +1,2 @@
 # Lista-de-Compras
- Crie uma lista de compras organzando em categorias
+ Crie uma lista de compras adicionando produtos e organizando em categorias
