@@ -1,14 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap");
 
 body {
-	background-image: linear-gradient(
-		to right top,
-		#051937,
-		#003042,
-		#234446,
-		#49564f,
-		#686965
-	);
+	background-image: linear-gradient(to right, rgb(24, 41, 59) , rgb(33, 105, 101));
 	font-family: "Maven Pro", sans-serif;
 	display: flex;
 	flex-direction: column;
