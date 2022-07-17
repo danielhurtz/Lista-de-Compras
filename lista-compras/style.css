@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap");
 
 body {
-	background-image: linear-gradient(to right, rgb(24, 41, 59) , rgb(33, 105, 101));
+	background-image: linear-gradient(to top, rgb(240, 202, 120), rgb(2, 36, 58));
 	font-family: "Maven Pro", sans-serif;
 	display: flex;
 	flex-direction: column;
-	margin:0;
-  min-width: 500px;
+	margin: 0;
+	min-width: 500px;
 }
 
 h1 {
@@ -25,13 +25,10 @@ h1:hover {
 
 .container {
 	margin-top: 50px;
-	display: flex;
-	flex-wrap: wrap;
 }
 
 .caixa {
 	text-align: center;
-	float: none;
 	padding: 2% 13% 2% 10%;
 	height: 10em;
 	width: 12em;
@@ -40,7 +37,6 @@ h1:hover {
 .menuProdutos {
 	background: rgba(0, 0, 0, 0.144);
 	width: 10em;
-	height: 5em;
 	border: 0.01em solid #0000003b;
 }
 
@@ -59,24 +55,35 @@ h1:hover {
 	display: inline-table;
 }
 
+input {
+	color: #fff;
+}
+
+input::placeholder {
+	color: rgba(250, 235, 215, 0.692);
+}
+
+
 button {
-	margin-top: 20px;
+	color: #000;
+	margin-top: 15px;
 	font-size: 0.8em;
-	border-radius: 0.4em;
-	height: 1.7em;
+	border: solid 2px;
+	height: 1.5em;
 	cursor: pointer;
-	background-color: #bbf0edbd;
+	background-color: rgba(255, 255, 255, 0);
+
 }
 
 button:hover {
-	letter-spacing: 0.4px;
+	color: rgb(118, 161, 189);
+	transition: 0.7s;
 }
 
 .categoriaProdutos {
 	position: relative;
 	left: 600px;
-	bottom: 190px;
-	float: none;
+	bottom: 188px;
 	padding: 10px 20px;
 	width: 300px;
 	height: auto;
@@ -91,12 +98,42 @@ button:hover {
 	background-color: #00000000;
 }
 
+#select {
+	color: #fff;
+	background-color: rgba(2, 36, 58, 0.253);
+}
+
+option {
+	background-color: rgb(2, 36, 58);
+	color: #fff;
+}
+
 footer {
+	bottom: 0;
+	position: fixed;
+	width: 90%;
 	text-align: center;
 	color: rgba(0, 0, 0, 0.63);
 }
 
 footer:hover {
-	color: rgb(0, 2, 145);
+	color: #fff;
 	transition-duration: 3s;
+}
+
+
+/* tamanho da barra de rolagem lateral vertical e horizontal */
+::-webkit-scrollbar {
+	width: 15px;
+	height: 15px;
+}
+
+/* personalizar cor de fundo */
+::-webkit-scrollbar-track {
+	background: rgb(2, 36, 58);
+}
+
+/* personalizar cor da barra */
+::-webkit-scrollbar-thumb {
+	background: rgb(26, 26, 26);
 }
