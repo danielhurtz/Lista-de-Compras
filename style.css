@@ -136,4 +136,5 @@ footer:hover {
 /* personalizar cor da barra */
 ::-webkit-scrollbar-thumb {
 	background: rgb(26, 26, 26);
+	border-radius: 30px;
 }
