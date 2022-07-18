@@ -20,7 +20,7 @@ var resBeb = document.getElementById("bebidas");
 
 function cadastrar() {
 	if (item.value == "") {
-		alert("Você deve digitar um produto!");
+		alert("Você deve inserir um produto!");
 	} else {
 		if (categoria.value == 'Frutas') {
 			var novo = item.value;
@@ -57,11 +57,11 @@ function cadastrar() {
 function mostrarLista() {
 	resFrutas.innerHTML = '<h3>Frutas  </h3>'
 	resVerdu.innerHTML = '<h3>Verduras  </h3>'
-	resLat.innerHTML = '<h3>Laticionios  </h3>'   
+	resLat.innerHTML = '<h3>Laticionios  </h3>'
 	resCere.innerHTML = '<h3>Cereais  </h3>'
-	resCarnes.innerHTML = '<h3>Carnes  </h3>'  
+	resCarnes.innerHTML = '<h3>Carnes  </h3>'
 	resDoces.innerHTML = '<h3>Doces  </h3>'
-	resBeb.innerHTML = '<h3>Bebidas  </h3>' 
+	resBeb.innerHTML = '<h3>Bebidas  </h3>'
 	for (let index in frutas) {
 		resFrutas.innerHTML += `<p>- ${frutas[index]}</p>`;
 	}
