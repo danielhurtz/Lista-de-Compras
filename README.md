@@ -19,7 +19,7 @@
 
 ### Sobre
 
-Loading...
+Crie uma lista de compras adicionando produtos e organize em categorias.
 
 #
 
